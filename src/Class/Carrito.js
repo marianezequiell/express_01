@@ -2,7 +2,7 @@ const fs = require('fs')
 
 class Carrito {
     constructor(nameFile) {
-        this.nameFile = __dirname + `../../DB/${nameFile}.txt`
+        this.nameFile = __dirname + `/${nameFile}.txt`
         this.init()
     }
     

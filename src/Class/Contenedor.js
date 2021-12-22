@@ -2,7 +2,7 @@ const fs = require('fs')
 
 class Contenedor {
     constructor (nameFile) {
-        this.file = __dirname + `../../DB/${nameFile}.txt`
+        this.file = __dirname + `/${nameFile}.txt`
     }
     
     static countID = 0
